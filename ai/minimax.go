@@ -1,7 +1,6 @@
 package ai
 
 import (
-	//"fmt"
 	"bytes"
 	"log"
 	"math"
@@ -9,11 +8,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"golang.org/x/net/context"
+	"context"
 
-	"../bitboard"
-	"../ptn"
-	"../tak"
+	"github.com/USTakAssociation/AaaarghBot/bitboard"
+	"github.com/USTakAssociation/AaaarghBot/ptn"
+	"github.com/USTakAssociation/AaaarghBot/tak"
 )
 
 const (

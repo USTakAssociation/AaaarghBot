@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"../tak"
+	"github.com/USTakAssociation/AaaarghBot/tak"
 )
 
 func TestParseMove(t *testing.T) {

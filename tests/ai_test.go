@@ -10,12 +10,12 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/net/context"
+	"context"
 
-	"../ai"
-	"../cli"
-	"../ptn"
-	"../tak"
+	"github.com/USTakAssociation/AaaarghBot/ai"
+	"github.com/USTakAssociation/AaaarghBot/cli"
+	"github.com/USTakAssociation/AaaarghBot/ptn"
+	"github.com/USTakAssociation/AaaarghBot/tak"
 )
 
 var debug = flag.Int("debug", 0, "debug level")

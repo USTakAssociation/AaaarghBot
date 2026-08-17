@@ -8,11 +8,11 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/net/context"
+	"context"
 
-	"../../playtak"
-	"../../ptn"
-	"../../tak"
+	"github.com/USTakAssociation/AaaarghBot/playtak"
+	"github.com/USTakAssociation/AaaarghBot/ptn"
+	"github.com/USTakAssociation/AaaarghBot/tak"
 )
 
 type Game struct {

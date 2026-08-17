@@ -1,16 +1,14 @@
 package main
 
 import (
-	//"log"
-	//"strconv"
 	"time"
 
-	"golang.org/x/net/context"
+	"context"
 
-	"../../ai"
-	"../../playtak"
-	"../../playtak/bot"
-	"../../tak"
+	"github.com/USTakAssociation/AaaarghBot/ai"
+	"github.com/USTakAssociation/AaaarghBot/playtak"
+	"github.com/USTakAssociation/AaaarghBot/playtak/bot"
+	"github.com/USTakAssociation/AaaarghBot/tak"
 )
 
 var waitingforundo bool = false

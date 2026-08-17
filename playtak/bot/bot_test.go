@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	"../../playtak"
-	"../../ptn"
-	"../../tak"
+	"github.com/USTakAssociation/AaaarghBot/playtak"
+	"github.com/USTakAssociation/AaaarghBot/ptn"
+	"github.com/USTakAssociation/AaaarghBot/tak"
 )
 
 func parseMoves(spec [][2]string) [][2]*tak.Move {

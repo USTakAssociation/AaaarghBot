@@ -1,8 +1,8 @@
 package ai
 
 import (
-	"../tak"
-	"golang.org/x/net/context"
+	"github.com/USTakAssociation/AaaarghBot/tak"
+	"context"
 )
 
 type TakPlayer interface {
