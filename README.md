@@ -96,6 +96,7 @@ podman run --rm -it tak-bot:local -server=playtak.com:10000 -user=mybot -pass=se
 
 - All CLI entrypoints accept `-help` to list supported flags. Use that to discover per-binary options such as `-depth`, `-limit`, `-debug`, etc.
 - Strength is controlled via the player string (`minimax:DEPTH`, `mcts:DURATION`). You can tune additional AI behavior by editing `ai/minimax.go` and `ai/mcts/mcts.go`.
+- Only board sizes 5 and 6 are available. Depth is the primary method of adjusting strength, for reasonable performance generally don't go above depth 3 at size 6, and depth 4 at size 5. `t.ai.Diversify` sets the random component of evaluation, going below 100 runs a risk of making the AI too predictable, higher values makes the AI more random, and weaker.
 - The `-server`, `-user`, and `-pass` flags are used by the PlayTak-facing binaries (for example `cmd/taktician` and `cmd/taklogger`) to connect to the remote server. If you use a custom PlayTak instance, pass its `host:port` address via `-server`.
 
 [tak]: http://cheapass.com/node/215
