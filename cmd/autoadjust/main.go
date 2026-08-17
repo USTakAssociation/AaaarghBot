@@ -11,9 +11,9 @@ import (
 	"path"
 	"runtime/pprof"
 
-	"../../ai"
-	"../../ptn"
-	"../../tak"
+	"github.com/USTakAssociation/AaaarghBot/ai"
+	"github.com/USTakAssociation/AaaarghBot/ptn"
+	"github.com/USTakAssociation/AaaarghBot/tak"
 )
 
 var (

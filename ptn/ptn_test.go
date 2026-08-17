@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"../tak"
+	"github.com/USTakAssociation/AaaarghBot/tak"
 )
 
 const testGame = `

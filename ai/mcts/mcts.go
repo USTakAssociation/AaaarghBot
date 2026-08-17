@@ -7,11 +7,11 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/net/context"
+	"context"
 
-	"../../ai"
-	"../../ptn"
-	"../../tak"
+	"github.com/USTakAssociation/AaaarghBot/ai"
+	"github.com/USTakAssociation/AaaarghBot/ptn"
+	"github.com/USTakAssociation/AaaarghBot/tak"
 )
 
 type MCTSConfig struct {

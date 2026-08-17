@@ -7,7 +7,7 @@ import (
 	"path"
 	"strings"
 
-	"../ptn"
+	"github.com/USTakAssociation/AaaarghBot/ptn"
 )
 
 func readPTNs(d string) ([]*ptn.PTN, error) {
